@@ -1,0 +1,25 @@
+<svg width="49.21px" height="45.47px" viewBox="0 0 128 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M21.4317 86.9014C9.23171 68.2014 16.3317 37.7014 40.0317 22.2014C63.7317 6.70142 95.6317 9.90141 110.432 30.0014C125.232 50.1014 108.032 74.3014 84.3317 89.8014C60.6317 105.301 33.6317 105.601 21.4317 87.0014V86.9014Z" fill="url(#paint0_radial_2001_3763)" />
+	<path d="M83.3613 90.2739C105.042 74.6377 112.743 48.2721 100.564 31.3849C88.3844 14.4976 60.9357 13.4834 39.2555 29.1197C17.5753 44.756 9.87343 71.1215 22.0529 88.0088C34.2324 104.896 61.6811 105.91 83.3613 90.2739Z" fill="url(#paint1_radial_2001_3763)" />
+	<path d="M35.6323 37.0008C45.5323 18.1008 74.1323 11.5008 98.4323 24.3008C122.832 37.1008 133.732 64.5008 123.832 83.4008C113.932 102.301 86.1323 107.201 61.7323 94.4008C37.3323 81.6008 25.6323 55.9008 35.5323 37.1008L35.6323 37.0008Z" fill="url(#paint2_radial_2001_3763)" />
+	<defs>
+		<radialGradient id="paint0_radial_2001_3763" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(9.11812 93.6849) rotate(-55.0311) scale(131.407 105.126)">
+			<stop stop-color="#00AEFF" />
+			<stop offset="0.2" stop-color="#00AEFF" stop-opacity="0.9" />
+			<stop offset="0.4" stop-color="#00AEFF" stop-opacity="0.8" />
+			<stop offset="0.5" stop-color="#00AEFF" stop-opacity="0.7" />
+			<stop offset="0.7" stop-color="#00AEFF" stop-opacity="0.5" />
+			<stop offset="0.8" stop-color="#00AEFF" stop-opacity="0.2" />
+			<stop offset="1" stop-color="#00AEFF" stop-opacity="0" />
+		</radialGradient>
+		<radialGradient id="paint1_radial_2001_3763" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.4321 74.5) rotate(-26.5651) scale(82.7345 99.2815)">
+			<stop stop-color="#FF00F1" />
+			<stop offset="0.2" stop-color="#E100F1" stop-opacity="0.8" />
+			<stop offset="1" stop-color="#FF00F1" stop-opacity="0" />
+		</radialGradient>
+		<radialGradient id="paint2_radial_2001_3763" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(108.432 40.5009) rotate(5.82634) scale(73.8817 59.1054)">
+			<stop stop-color="#FF9291" />
+			<stop offset="0.91" stop-color="#FFF600" stop-opacity="0" />
+		</radialGradient>
+	</defs>
+</svg>
