@@ -192,6 +192,7 @@ export default function HomePage() {
         </Box>
 
         <Image
+          className="spring-home"
           alt="spring"
           src={Spring}
           style={{
@@ -203,6 +204,7 @@ export default function HomePage() {
         />
 
         <Image
+          className="scroll-home"
           alt="scroll"
           src={Scroll}
           style={{
@@ -313,6 +315,7 @@ export default function HomePage() {
             }}
           >
             <Image
+              className="circle"
               alt="circle"
               src={Circle}
               style={{
@@ -432,6 +435,7 @@ export default function HomePage() {
           </Box>
 
           <Image
+            className="triangle-home"
             width={574}
             alt="triangle"
             src={Triangle}
@@ -449,6 +453,7 @@ export default function HomePage() {
           }}
         >
           <Image
+            className="pentagon-home"
             alt="pentagon"
             // width={574}
             src={Pentagon}
@@ -522,6 +527,7 @@ export default function HomePage() {
           </Box>
 
           <Image
+            className="square-home"
             alt="square"
             // width={574}
             src={Square}
@@ -539,6 +545,7 @@ export default function HomePage() {
           }}
         >
           <Image
+            className="chromosome-home"
             alt="chromosome"
             // width={574}
             src={Chromosome}
@@ -778,6 +785,7 @@ export default function HomePage() {
         }}
       >
         <Image
+          className="footer-figures"
           src={FooterFigures}
           alt="footer-figures"
           style={{
@@ -815,12 +823,6 @@ export default function HomePage() {
               </Typography>
               рекламное агентство, которое помогает брендам выделяться,
               налаживать связи с аудиторией и реализовывать яркие идеи.
-            </Typography>
-            <Typography component="span" color="yellow" fontSize={18}>
-              Слава
-            </Typography>{" "}
-            <Typography component="span" color="blue" fontSize={18}>
-              Україні
             </Typography>
           </Box>
           <Stack

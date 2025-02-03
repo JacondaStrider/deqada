@@ -40,3 +40,20 @@ a {
     color-scheme: dark;
   }
 }
+
+@media (max-width: 1800px) {
+  .css-1o2zovs-MuiTypography-root {
+    line-height: 130%;
+  }
+  .css-1mde5o7-MuiTypography-root {
+    left: 0;
+    top: auto;
+    bottom: -115px;
+  }
+  .css-11yebb4 {
+    display: none;
+  }
+  .footer-figures {
+    width: 26.292vw;
+  }
+}

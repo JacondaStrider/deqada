@@ -1,7 +1,7 @@
 import { defineRouting } from "next-intl/routing";
 import { getRequestConfig } from "next-intl/server";
 
-export const DEFAULT_LOCALE = "ua" as const;
+export const DEFAULT_LOCALE = "ru" as const;
 export const LOCALES = [DEFAULT_LOCALE] as const;
 
 export const routing = defineRouting({
@@ -21,7 +21,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   return {
     locale,
-    timeZone: "Europe/Kiev",
+    timeZone: "Europe/Moscow",
     messages: (await import(`../intl/locales/${locale}.json`)).default,
   };
 });
