@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import { Box, IconButton } from "@mui/material";
+import { Box, IconButton, Button } from "@mui/material";
 import Deqada from "@svg/deqada.svg";
 import Logo from "@svg/logo.svg";
 import Mail from "@svg/mail.svg";
@@ -79,7 +79,9 @@ export default function Header() {
           alignItems: "center",
         }}
       >
-        <IconButton>
+        <Button
+          href="https://t.me/deqada_media"
+        >
           <Image
             alt="telegram"
             src={Telegram}
@@ -87,9 +89,11 @@ export default function Header() {
               cursor: "pointer",
             }}
           />
-        </IconButton>
+        </Button>
 
-        <IconButton>
+        <Button
+          href="mailto:text@deqadamedia.ru"
+        >
           <Image
             alt="mail"
             src={Mail}
@@ -97,7 +101,7 @@ export default function Header() {
               cursor: "pointer",
             }}
           />
-        </IconButton>
+        </Button>
       </Box>
     </Box>
   );

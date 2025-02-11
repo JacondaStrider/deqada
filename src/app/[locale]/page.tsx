@@ -854,21 +854,28 @@ export default function HomePage() {
               alignItems: "center",
             }}
           >
-            <Image
-              alt="telegram"
-              src={Telegram}
-              style={{
-                cursor: "pointer",
-              }}
-            />
-
-            <Image
-              alt="mail"
-              src={Mail}
-              style={{
-                cursor: "pointer",
-              }}
-            />
+            <Button
+              href="https://t.me/deqada_media"
+            >
+              <Image
+                alt="telegram"
+                src={Telegram}
+                style={{
+                  cursor: "pointer",
+                }}
+              />
+            </Button>
+            <Button
+              href="mailto:text@deqadamedia.ru"
+            >
+              <Image
+                alt="mail"
+                src={Mail}
+                style={{
+                  cursor: "pointer",
+                }}
+              />
+            </Button>
           </Box>
           <Box
             sx={{
